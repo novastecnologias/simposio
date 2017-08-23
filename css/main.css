@@ -1,0 +1,27 @@
+.logo-face {
+	font-family: 'Audiowide', cursive;
+}
+
+#sidenav-overlay {
+	left: 300px;
+}
+
+.parallax-container {
+	height: 300px;
+}
+
+.img-blur {
+	filter: blur(2px);
+}
+
+.modal-close-button {
+	float: right;
+}
+
+.material-icons {
+	vertical-align: text-bottom;
+}
+
+.footer-ul>li>a {
+	text-decoration: underline;
+}
