@@ -1,5 +1,14 @@
-.logo-face {
-	font-family: 'Audiowide', cursive;
+html {
+	font-family: 'Lato', sans-serif;
+	font-size: 105%;
+}
+
+.title-face {
+	font-family: 'Zilla Slab Highlight', cursive;
+}
+
+.subtitle-face {
+	font-family: 'Abril Fatface', cursive;
 }
 
 #sidenav-overlay {
