@@ -31,3 +31,7 @@ html {
 .footer-ul>li>a {
 	text-decoration: underline;
 }
+
+.card-panel {
+	font-size: 95%;
+}
