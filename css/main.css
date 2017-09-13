@@ -8,6 +8,26 @@ html {
 	font-family: 'Zilla Slab Highlight', cursive;
 }
 
+.azul-caixa {
+	background-color: #0369b9 !important;
+}
+
+.azul-caixa-escuro {
+	background-color: #025698 !important;
+}
+
+.laranja-caixa {
+	background-color: #ff7c00 !important;
+}
+
+.laranja-caixa-claro {
+	background-color: #ff8d22 !important;
+}
+
+.texto-laranja-caixa {
+	color: #ff7c00;
+}
+
 #sidenav-overlay {
 	left: 300px;
 }
