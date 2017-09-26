@@ -4,6 +4,17 @@ html {
 	overflow: scroll;
 }
 
+.center-img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.logo-face {
+	font-family: 'Nova Square', sans-serif;
+}
+
 .title-face {
 	font-family: 'Zilla Slab Highlight', cursive;
 }
@@ -54,4 +65,8 @@ html {
 
 .card-panel {
 	font-size: 95%;
+}
+
+.modal-trigger > img {
+	max-height: 150px;
 }
