@@ -7,19 +7,424 @@
 		<title>I Simpósio Inova CEDES/SP</title>
 		<!--Import Google Icon Font-->
       	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      	<link href="https://fonts.googleapis.com/css?family=Lato|Zilla+Slab+Highlight" rel="stylesheet">
+      	<link href="https://fonts.googleapis.com/css?family=Lato|Zilla+Slab+Highlight|Nova+Square" rel="stylesheet">
       	<!--Import materialize.css-->
       	<link rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
       	<link rel="stylesheet" href="css/main.css"/>
 	</head>
-	<body class="black">
-		<div class="container">
-			<div class="row center-img">
-				<div class="col s12">
-					<img src="img/teaser_simposio.png">
+	<body>
+		<!-- Nav Top -->
+		<div class="navbar-fixed z-depth-2">
+				<nav class="azul-caixa">
+					<div class="container">
+						<div class="nav-wrapper">
+							<a href="#!" class="brand-logo logo-face">cedessp</a>
+							<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+							<ul class="right hide-on-med-and-down">
+								<li><a href="#evento">O Evento</a></li>
+								<li><a href="#palestrantes">Palestrantes</a></li>					
+								<li><a href="#agenda">Agenda</a></li>					
+							</ul>					
+							<ul id="nav-mobile" class="side-nav">
+								<li><a href="#evento">O Evento</a></li>
+								<li><a href="#palestrantes">Palestrantes</a></li>				
+								<li><a href="#agenda">Agenda</a></li>				
+							</ul>
+						</div>
+					</div>
+				</nav>
+		</div>
+		<!-- Main Content -->
+		<div class="parallax-container valign-wrapper">
+			<div class="container">
+				<div class="row center">
+					<h2 class="title-face texto-laranja-caixa show-on-large hide-on-med-and-down"><span class="white">I Simpósio Inova CEDES/SP</span></h2>
+					<h4 class="title-face texto-laranja-caixa show-on-med-and-down hide-on-large-only"><span class="white">I Simpósio Inova CEDES/SP</span></h4>
+					<h5 class="title-face black-text"><span class="white">De 06 a 09/11/17 @ CEDES/SP</span></h5>
+				</div>
+				<!-- <div class="row center">
+					<a href="#" target="_blank" id="botao-increver" class="btn-large waves-effect waves-orange azul-caixa modal-trigger">INSCREVA-SE!</a>
+				</div> -->
+			</div>
+			<div class="parallax">
+				<img src="img/new_panamerica.png">
+			</div>
+		</div>
+		<div id="evento" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col s12">
+						<h4 class="header">O Evento</h4>
+						<p>O I Simpósio Inova CEDES/SP é um encontro dos funcionários da centralizadora com as tecnologias que estão em voga na atualidade.</p>
+						<p>As palestras serão ministradas por profissionais que se destacam no mercado de TI atual, dentro e fora da CAIXA, e empregam no seu dia-a-dia o que há de mais moderno no desenvolvimento de soluções em tecnologia.</p>
+						<p>Serão quatro dias de muita interação e conhecimento para todos os colegas da TI CAIXA, imperdíveis e extremamente necessários em tempos de agilidade na entrega e foco na satisfação de seus clientes.</p>
+					</div>
 				</div>
 			</div>
 		</div>
+		<div class="parallax-container valign-wrapper">
+			<div class="container">
+				<div class="row center">
+					<h4><span class="title-face black-text white">O encontro entre as novas tendências do mercado e a CEDES/SP</span></h4>
+				</div>
+			</div>
+			<div class="parallax">
+				<img src="img/code.jpg">
+			</div>
+		</div>
+		<div id="palestrantes" class="section laranja-caixa">
+			<div class="container">
+				<div class="row">
+					<div class="col s12">
+						<h4>Os Palestrantes</h4>
+					</div>
+				</div>
+				<div class="row center">
+					<div class="col s12 m6 l3">
+						<div class="card-panel z-depth-1 laranja-caixa-claro">
+							<div class="row center">
+								<a href="#modal-convidado" class="modal-trigger">
+									<img src="img/convidado.png" class="circle responsive-img">
+								</a>						
+							</div>
+							<div class="row center">
+								<span>Convidado Especial</span>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m6 l3">
+						<div class="card-panel z-depth-1 laranja-caixa-claro">
+							<div class="row center">
+								<a href="#modal-palestrante-0" class="modal-trigger">
+									<img src="img/tati_coelho.png" class="circle responsive-img">
+								</a>						
+							</div>
+							<div class="row center">
+								<span>Tatiana Coelho</span>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m6 l3">
+						<div class="card-panel z-depth-1 laranja-caixa-claro">
+							<div class="row center">
+								<a href="#modal-palestrante-1" class="modal-trigger">
+									<img src="img/leandro_malandrin.png" class="circle responsive-img">
+								</a>
+							</div>
+							<div class="row center">
+								<span>Leandro Malandrin</span>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m6 l3">
+						<div class="card-panel z-depth-1 laranja-caixa-claro">
+							<div class="row center">
+								<a href="#modal-palestrante-2" class="modal-trigger">
+									<img src="img/brunno_orpinelli.jpg" class="circle responsive-img">
+								</a>
+							</div>
+							<div class="row center">
+								<span>Brunno Orpinelli</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row center">
+					<div class="col s12 m6 l3">
+						<div class="card-panel z-depth-1 laranja-caixa-claro">
+							<div class="row center">
+								<a href="#modal-palestrante-3" class="modal-trigger">
+									<img src="img/marcus_vinicius.png" class="circle responsive-img">
+								</a>
+							</div>
+							<div class="row center">
+								<span>Marcus Vinícius Ferreira</span>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m6 l3">
+						<div class="card-panel z-depth-1 laranja-caixa-claro">
+							<div class="row center">
+								<a href="#modal-palestrante-4" class="modal-trigger">
+									<img src="img/eldes_mattiuzzo.jpg" class="circle responsive-img">
+								</a>
+							</div>
+							<div class="row center">
+								<span>Eldes Mattiuzzo</span>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m6 l3">
+						<div class="card-panel z-depth-1 laranja-caixa-claro">
+							<div class="row center">
+								<a href="#modal-palestrante-5" class="modal-trigger">
+									<img src="img/rodrigo_evangelista.jpg" class="circle responsive-img">
+								</a>							
+							</div>
+							<div class="row center">
+								<span>Rodrigo Evangelista</span>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m6 l3">
+						<div class="card-panel z-depth-1 laranja-caixa-claro">
+							<div class="row center">
+								<a href="#modal-palestrante-6" class="modal-trigger">
+									<img src="img/gino_terentim.png" class="circle responsive-img">
+								</a>							
+							</div>
+							<div class="row center">
+								<span>Gino Terentim Jr.</span>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="row center">
+					<div class="col s12 m6 l3">
+						<div class="card-panel z-depth-1 laranja-caixa-claro">
+							<div class="row center">
+								<a href="#modal-palestrante-7" class="modal-trigger">
+									<img src="img/luiz_barna.jpg" width="150px" class="circle responsive-img">
+								</a>
+							</div>
+							<div class="row center">
+								<span>Luiz Barna</span>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m6 l3">
+						<div class="card-panel z-depth-1 laranja-caixa-claro">
+							<div class="row center">
+								<a href="#modal-palestrante-8" class="modal-trigger">
+									<img src="img/fernando_furtado.jpg" width="150px" class="circle responsive-img">
+								</a>
+							</div>
+							<div class="row center">
+								<span>Fernando Furtado</span>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m6 l3">
+						<div class="card-panel z-depth-1 laranja-caixa-claro">
+							<div class="row center">
+								<a href="#modal-palestrante-9" class="modal-trigger">
+									<img src="img/matheus_brandino.jpg" width="150px" class="circle responsive-img">
+								</a>
+							</div>
+							<div class="row center">
+								<span>Matheus Brandino</span>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m6 l3">
+						<div class="card-panel z-depth-1 laranja-caixa-claro">
+							<div class="row center">
+								<a href="#modal-palestrante-10" class="modal-trigger">
+									<img src="img/edmon_silva.jpg" width="150px" class="circle responsive-img">
+								</a>
+							</div>
+							<div class="row center">
+								<span>Edmon da Silva</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="parallax-container valign-wrapper">
+			<div class="container">
+				<div class="row center">
+					<h4><span class="title-face black-text white">A CEDES/SP com o foco no cliente!</span></h4>
+				</div>
+			</div>
+			<div class="parallax">
+				<img src="img/happy.jpg">
+			</div>
+		</div>
+
+		<div id="agenda" class="section white">
+			<div class="container">
+				<div class="row">
+					<div class="col s12">
+						<h4>Agenda</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12 m8 offset-m2">
+						<div class="card-panel z-depth-1 white">
+							<h5>06/11</h5>
+							<ul>
+								<li><a class="waves-effect waves-light btn-small laranja-caixa white-text tooltipped" data-position="top" data-delay="50" data-tooltip="Inscreva-se!"><i class="material-icons">add</i></a> 10h30 @ Credenciamento e Abertura com convidado especial
+								</li>
+								<li><a class="waves-effect waves-light btn-small laranja-caixa white-text tooltipped" data-position="top" data-delay="50" data-tooltip="Inscreva-se!"><i class="material-icons">add</i></a> 14h00 @ Auditório &bull; Relacionamento 2.0 com Luiz Barna</li>
+								<li><a class="waves-effect waves-light btn-small laranja-caixa white-text tooltipped" data-position="top" data-delay="50" data-tooltip="Inscreva-se!"><i class="material-icons">add</i></a> 15h30 @ Auditório &bull; Design Thinking com Tatiana Coelho</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col s12 m8 offset-m2">
+						<div class="card-panel z-depth-1 white">
+							<h5>07/11</h5>
+							<ul>
+								<li><a class="waves-effect waves-light btn-small laranja-caixa white-text tooltipped" data-position="top" data-delay="50" data-tooltip="Inscreva-se!"><i class="material-icons">add</i></a> 10h30 @ Auditório &bull; Big Data com Brunno Orpinelli</li>
+								<li><a class="waves-effect waves-light btn-small laranja-caixa white-text tooltipped" data-position="top" data-delay="50" data-tooltip="Inscreva-se!"><i class="material-icons">add</i></a> 11h45 @ Sala de Inovação &bull; Pitch: A Importância do Daily Scrum com Edmon da Silva</li>
+								<li><a class="waves-effect waves-light btn-small laranja-caixa white-text tooltipped" data-position="top" data-delay="50" data-tooltip="Inscreva-se!"><i class="material-icons">add</i></a> 14h00 @ Auditório &bull; DevOps com Marcus Vinícius Ferreira</li>
+								<li><a class="waves-effect waves-light btn-small laranja-caixa white-text tooltipped" data-position="top" data-delay="50" data-tooltip="Inscreva-se!"><i class="material-icons">add</i></a> 15h30 @ Auditório &bull; Cloud com Marcus Vinícius Ferreira</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12 m8 offset-m2">
+						<div class="card-panel z-depth-1 white">
+							<h5>08/11</h5>
+							<ul>
+								<li><a class="waves-effect waves-light btn-small laranja-caixa white-text tooltipped" data-position="top" data-delay="50" data-tooltip="Inscreva-se!"><i class="material-icons">add</i></a> 10h30 @ Auditório &bull; Agile Trends com Gino Terentim Jr.</li>
+								<li><a class="waves-effect waves-light btn-small laranja-caixa white-text tooltipped" data-position="top" data-delay="50" data-tooltip="Inscreva-se!"><i class="material-icons">add</i></a> 11h30 @ Auditório &bull; Retrospectiva PTDES Pessoas</li>
+								<li><a class="waves-effect waves-light btn-small laranja-caixa white-text tooltipped" data-position="top" data-delay="50" data-tooltip="Inscreva-se!"><i class="material-icons">add</i></a> 14h00 @ Auditório &bull; Gestão de Inovação e IoT com Leandro Malandrin</li>
+								<!-- <li><a class="waves-effect waves-light btn-small laranja-caixa white-text tooltipped" data-position="top" data-delay="50" data-tooltip="Inscreva-se!"><i class="material-icons">add</i></a> 15h00 @ Sala de Inovação &bull; Tema a Definir</li> -->
+								<li><a class="waves-effect waves-light btn-small laranja-caixa white-text tooltipped" data-position="top" data-delay="50" data-tooltip="Inscreva-se!"><i class="material-icons">add</i></a> 15h30 @ Auditório &bull; Do Zero ao App com Kotlin e Swift com Fernando Furtado e Matheus Brandino</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col s12 m8 offset-m2">
+						<div class="card-panel z-depth-1 white">
+							<h5>09/11</h5>
+							<ul>
+								<li><a class="waves-effect waves-light btn-small laranja-caixa white-text tooltipped" data-position="top" data-delay="50" data-tooltip="Inscreva-se!"><i class="material-icons">add</i></a> 10h30 @ Auditório &bull; Abertura com o Vice Presidente Eirado</li>
+								<li><a class="waves-effect waves-light btn-small laranja-caixa white-text tooltipped" data-position="top" data-delay="50" data-tooltip="Inscreva-se!"><i class="material-icons">add</i></a> 10h45 @ Auditório &bull; CAIXA sendo Digital com Rodrigo Evangelista</li>
+								<li><a class="waves-effect waves-light btn-small laranja-caixa white-text tooltipped" data-position="top" data-delay="50" data-tooltip="Inscreva-se!"><i class="material-icons">add</i></a> 14h00 @ Auditório &bull; Transformação Digital na Era da Cultura Colaborativa com Eldes Mattiuzzo</li>
+								<li><a class="waves-effect waves-light btn-small laranja-caixa white-text tooltipped" data-position="top" data-delay="50" data-tooltip="Inscreva-se!"><i class="material-icons">add</i></a> 15h30 @ Auditório &bull; Encerramento</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="page-footer azul-caixa">
+			<div class="container">
+				<div class="row">
+					<div class="col s12 m7">
+						<h5>I Simpósio Inova CEDES/SP</h5>
+						<ul class="footer-ul">
+							<li><i class="material-icons">date_range</i> De 06 a 09/11/2017</li>
+							<li><i class="material-icons">home</i> Av. Guido Caloi, 1000 - Bloco 9</li>
+							<li><i class="material-icons">phone</i> 11 3581-8338</li>
+							<li><i class="material-icons">mail</i> <a href="mailto:cedessp004@caixa.gov.br" class="grey-text text-lighten-2">cedessp004@caixa.gov.br</a></li>
+						</ul>
+					</div>
+					<div class="col s12 m2 offset-m3">
+						<h5>Menu</h5>
+						<ul class="footer-ul">
+							<li><a href="#evento" class="grey-text text-lighten-2">O Evento</a></li>
+							<li><a href="#palestrantes" class="grey-text text-lighten-2">Palestrantes</a></li>			
+							<li><a href="#agenda" class="grey-text text-lighten-2">Agenda</a></li>			
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright azul-caixa-escuro">
+				<div class="container">
+					© 2017 CEDESSP004 - PTDES Pessoas
+				</div>
+			</div>
+		</footer>
+		<div id="modal-convidado" class="modal">
+			<div class="modal-content">
+				<span class="modal-close-button"><a href="#!" class="modal-action modal-close"><i class="material-icons">close</i></a></span>
+				<h5>Convidado Especial</h5>
+				<p>Nosso Convidado Especial é um atleta paraolímpico patrocinado pela CAIXA, Tetracampeão Mundial de Paracanoagem...</p>
+			</div>
+		</div>
+		<div id="modal-palestrante-0" class="modal">
+			<div class="modal-content">
+				<span class="modal-close-button"><a href="#!" class="modal-action modal-close"><i class="material-icons">close</i></a></span>
+				<h5>Tatiana Coelho, Impacta</h5>
+				<h6>Design Thinking</h6>
+				<p>Business por essência, Designer de Serviços por escolha, Fundadora da Improve Assessoria, Associate Brazil & Consultant da Design Thinkers Group, CEO Hack 'n Rock, Conselheira de Startups, Coach pela SBC, Mestre em Sustentabilidade pela FEARP-USP e Gestora de Projetos pela POLI-USP, Alumni da AIESEC.</p>
+			</div>
+		</div>
+		<div id="modal-palestrante-1" class="modal">
+			<div class="modal-content">
+				<span class="modal-close-button"><a href="#!" class="modal-action modal-close"><i class="material-icons">close</i></a></span>
+				<h5>Leandro Malandrin, Logicalis</h5>
+				<h6>Gestão da Inovação e Internet das Coisas</h6>
+				<p>Formado pela Universidade de São Paulo em Engenharia da Computação, com intercâmbio de engenharia na Universidade de Illinois at Urbana Champaign. É mestre em Engenharia da Computação também pela Universidade de São Paulo, com foco em Gestão de Segurança da Informação. Atualmente é Gerente de Consultoria na Logicalis, onde atua há 10 anos realizando projetos voltados a adoção de tecnologia em clientes dos mais diversos setores da indústria. É responsável pelas práticas de Segurança da Informação, Digital Business Strategy e Innovation Management, dando o suporte na utilização de tecnologias como Nuvem, Analytics e Internet das Coisas. Recentemente participou da coordenação das pesquisas IoT Snapshot e IT Snapshot publicadas pela Logicalis.</p>
+			</div>
+		</div>
+		<div id="modal-palestrante-2" class="modal">
+			<div class="modal-content">
+				<span class="modal-close-button"><a href="#!" class="modal-action modal-close"><i class="material-icons">close</i></a></span>
+				<h5>Brunno Orpinelli, Amazon</h5>
+				<h6>Big Data</h6>
+				<p>Arquiteto de Soluções Enterprise com mais de 10 anos de experiência em projetos do setor financeiro e  de telecomunicações. Foco na ingestão, armazenamento, processamento e visualização de grandes volumes de dados para as grandes empresas.</p>
+			</div>
+		</div>
+		<div id="modal-palestrante-3" class="modal">
+			<div class="modal-content">
+				<span class="modal-close-button"><a href="#!" class="modal-action modal-close"><i class="material-icons">close</i></a></span>
+				<h5>Marcus Vinícius Ferreira, Amazon</h5>
+				<h6>Cloud e DevOps em AWS</h6>
+				<p>Arquiteto de Soluções AWS, Public Sector, Education, EBR.</p>
+			</div>
+		</div>
+		<div id="modal-palestrante-4" class="modal">
+			<div class="modal-content">
+				<span class="modal-close-button"><a href="#!" class="modal-action modal-close"><i class="material-icons">close</i></a></span>
+				<h5>Eldes Mattiuzzo, Youse</h5>
+				<h6>Transformação Digital na Era da Cultura Colaborativa</h6>
+				<p>Eldes Mattiuzzo é um executivo com sólida experiência no mercado financeiro, tendo construído ao longo do tempo um perfil empreendedor e tecnológico. Nos últimos seis anos fundou, lançou e trabalhou para três grandes startups de tecnologia e finanças, contribuindo para o crescimento e reconhecimento de todas. Ao longo de sua carreira, foi o responsável por conceituar os planos e modelos de negócios, estratégias de marketing e desenvolvimento de mercado, focados sempre na execução de estratégias de crescimento agressivas que conduziram as empresas à liderança em suas respectivas categorias.  Ao longo de sua carreira passou por empresas como Banco Nacional, Unibanco Fininvest e Max Facil. Também foi responsável pela criação do Fairplace, um site feito para a realização de empréstimos entre pessoas, e em 2011 fundou a Bidu.com.br, corretora de seguros 100% online, onde ficou até 2015. Então, foi convidado pela Caixa Seguradora para liderar o projeto e o lançamento da primeira Seguradora 100% digital do mercado brasileiro, a Youse.</p>
+			</div>
+		</div>
+		<div id="modal-palestrante-5" class="modal">
+			<div class="modal-content">
+				<span class="modal-close-button"><a href="#!" class="modal-action modal-close"><i class="material-icons">close</i></a></span>
+				<h5>Rodrigo Evangelista, CAIXA</h5>
+				<h6>CAIXA sendo Digital</h6>
+				<p>Superintendente de Arquitetura Empresarial na Diretoria de Transformação Digital da CAIXA. Foi Consultor de Dirigente e Gerente Nacional de 5 unidades da vice-presidência de Tecnologia da Informação da CAIXA. Doutor em Inteligência Artificial pela COPPE – UFRJ. MBA em Gestão de TI em Instituições Financeiras pela Universidade de São Caetano do Sul. Formado pelo 1º Programa de Gerentes Trainee da CAIXA onde cursou MBA em Gestão Empresarial pela Fundação Getúlio Vargas. Foi professor de Engenharia de Software para curso de pós-graduação. Engenheiro Civil pela Universidade Federal de Juiz de Fora. Atua nos seguintes temas: mundo digital; melhoria de processos; inovação; arquitetura tecnológica; soluções de mercado; desenvolvimento de software e banco digital.</p>
+			</div>
+		</div>
+		<div id="modal-palestrante-6" class="modal">
+			<div class="modal-content">
+				<span class="modal-close-button"><a href="#!" class="modal-action modal-close"><i class="material-icons">close</i></a></span>
+				<h5>Gino Terentim Jr., CAIXA</h5>
+				<h6>Agile Trends</h6>
+				<p>Consultor de Organização e Estratégia na SN Inteligência Corporativa e Estratégia. Foi durante dois anos head do PMO Corporativo da Caixa Econômica Federal. Possui amplo conhecimento e experiência em Planeamento Estratégico, PMO e Gerenciamento de Projetos, Programas e Portfólios. Também exerce o papel de Diretor de Certificação do Capítulo do Distrito Federal do PMI (Project Management Institute), onde realiza palestras e trabalhos voluntários para o desenvolvimento da comunidade de Gerenciamento de Projetos no Distrito Federal e no país. Ainda na disciplina de Gerenciamento de Projetos, é profissional certificado PMP – Project Management Professional ie possui profundo conhecimento da metodologia britânica PRINCE2 – Projects in Controlled Environments, na qual obteve todas as certificações atualmente disponíveis, juntamente com as certificações MSP Practitioner, em Gerenciamento de Programas, e MoP Practitioner, em Gerenciamento de Portfólios, que também oferece um excelente domínio das ferramentas e métodos para o Planejamento Estratégico. Atua como Agile Practitioner, PMI-ACP – Agile Certified Practitioner, capacitando e auxiliando organizações na implantação e utilização de frameworks ágeis, tais como: SCRUM, Kanban, XP, DSDM e Lean.</p>
+			</div>
+		</div>
+		<div id="modal-palestrante-7" class="modal">
+			<div class="modal-content">
+				<span class="modal-close-button"><a href="#!" class="modal-action modal-close"><i class="material-icons">close</i></a></span>
+				<h5>Luiz Barna, CAIXA</h5>
+				<h6>Relacionamento 2.0</h6>
+				<p>Mestre em Comunicação pela Faculdade Cásper Líbero, especialização em Didática e Metodologia do Ensino Superior pela Anhanguera Educacional, Designer de Multimídia pelo Centro Universitário Senac e Jornalista pela Faculdade Cásper Líbero. Atualmente é analista sênior na equipe de Mídias Digitais da Caixa Econômica Federal onde também atua com projetos de inovação, gamificação e como instrutor corporativo. Atua no mercado de desenvolvimento de games independentes e como consultor lúdico. É professor do curso de Jogos Digitais da Faculdade Impacta (FIT) e professor na graduação (Publicidade e Propaganda; Produção Multimídia; Audiovisual) da Faculdade Paulus de Tecnologia e Comunicação (FAPCOM). Atualmente desenvolve pesquisa nas áreas de games, narrativas, experiência do usuário e inovação.</p>
+			</div>
+		</div>
+		<div id="modal-palestrante-8" class="modal">
+			<div class="modal-content">
+				<span class="modal-close-button"><a href="#!" class="modal-action modal-close"><i class="material-icons">close</i></a></span>
+				<h5>Fernando Furtado, Alura</h5>
+				<h6>Do Zero ao App com Kotlin e Swift</h6>
+				<p>Desenvolvedor desde 2008, iniciou sua carreira com desenvolvimento para ERP, atuando também como administração de banco de dados Microsoft SQL Server. Participou de projetos mobile com iOS e hoje é instrutor e desenvolvedor na Caelum e Alura, apaixonado por programação, lógica e boas práticas de código. Adora cubos mágicos e manipulação de cartas (cardistry), quando não vendo assuntos relacionado a desenvolvimento de software e afins está tocando guitarra ou violão.</p>
+			</div>
+		</div>
+		<div id="modal-palestrante-9" class="modal">
+			<div class="modal-content">
+				<span class="modal-close-button"><a href="#!" class="modal-action modal-close"><i class="material-icons">close</i></a></span>
+				<h5>Matheus Brandino, Alura</h5>
+				<h6>Do Zero ao App com Kotlin e Swift</h6>
+				<p>Apaixonado por desenvolvimento mobile e novas tecnologias. Atualmente, cursa sistemas de informação na Universidade Metodista de São Paulo e é desenvolvedor e instrutor na Caelum.</p>
+			</div>
+		</div>
+		<div id="modal-palestrante-10" class="modal">
+			<div class="modal-content">
+				<span class="modal-close-button"><a href="#!" class="modal-action modal-close"><i class="material-icons">close</i></a></span>
+				<h5>Edmon da Silva, CAIXA</h5>
+				<h6>Pitch: A Importância da Daily Scrum</h6>
+				<p>Coordenador de Projetos de TI na CEDES/SP, Scrum Master na Transformação Digital CAIXA e Professional Scrum Master I certificado. Formado em Sistemas da Informação pelo IBTA São Paulo e especializado em Engenharia de Software pela UNICAMP, já atuou nos segmentos de cartões, sigilo bancário, empréstimos e infraestrutura dentro da CAIXA.</p>
+			</div>
+		</div>
+
 		<!--Import jQuery before materialize.js-->
       	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
       	<script type="text/javascript" src="js/materialize.min.js"></script>
