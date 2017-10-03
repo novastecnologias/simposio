@@ -2,6 +2,7 @@ $(function() {
 	$(".button-collapse").sideNav();
 	$(".parallax").parallax();
 	$(".modal").modal();
+	$('.tooltipped').tooltip({delay: 50});
 });
 
 $("#nav-mobile").click(function() {
