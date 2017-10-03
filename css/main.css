@@ -47,10 +47,6 @@ html {
 	height: 300px;
 }
 
-.img-blur {
-	filter: blur(2px);
-}
-
 .modal-close-button {
 	float: right;
 }
