@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Instascan</title>
+    <script type="text/javascript" src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+	<style>
+		p#resultado { font-size: 48px;}
+	</style>
+  </head>
+  <body>
+	<center>
+	<p>
+		<select id="evento">
+			<option value="">Selecione o evento</option>
+			<option value="AC">Atleta Caixa</option>
+			<option value="SD">Scrum Daily</option>
+		</select>
+	</p>
+    <video id="preview"></video>
+	<div>
+		<p id="resultado"></p>
+	</div>
+	</center>
+    <script type="text/javascript">
+	  var base = {
+			'AC': ['C068446', 'C019987'],
+			'SD': ['C024735']
+	  };
+	  var evento = "";
+	  
+	  resultado = document.querySelector('#resultado');
+	  
+	  select = document.querySelector('#evento');
+	  select.addEventListener('change', function() {
+		evento = this.options[this.selectedIndex].value;
+		resultado.textContent = '';
+	  });
+
+      let scanner = new Instascan.Scanner({ video: document.getElementById('preview') });
+      scanner.addListener('scan', function (content) {
+        console.log(content);
+		procuraFuncionario(content, evento);
+      });
+      Instascan.Camera.getCameras().then(function (cameras) {
+        if (cameras.length > 0) {
+          scanner.start(cameras[0]);
+        } else {
+          console.error('No cameras found.');
+        }
+      }).catch(function (e) {
+        console.error(e);
+      });
+	  
+	  function procuraFuncionario(matricula, evento) {
+		console.log(matricula);
+		if (evento !== "" && matricula !== "") {
+			if (base[evento].indexOf(matricula) === 0) {
+				resultado.textContent = 'Acesso autorizado';
+				resultado.style.color = 'green';
+			} else {
+				resultado.textContent = 'Não encontrado!';
+				resultado.style.color = 'red';
+			}
+		} else {
+			resultado.textContent = 'Selecione um evento!';
+			resultado.style.color = 'red';
+		}
+	  };
+	  
+    </script>
+  </body>
+</html>
