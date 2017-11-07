@@ -63,6 +63,10 @@ html {
 	font-size: 95%;
 }
 
-.modal-trigger > img {
+.modal-trigger>img {
 	max-height: 150px;
+}
+
+.tachado {
+	text-decoration: line-through;
 }
